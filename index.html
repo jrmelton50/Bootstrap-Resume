@@ -1,12 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!-- Links go below the title! -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <div class="container">
+
+        <!-- Jumbotron -->
+        <div class="jumbotron bg-primary mt-5">
+            <div class="container">
+                <h1 class="display-4 text-white">Jessie Melton</h1>
+                <p class="lead text-white">Student</p>
+            </div>
+        </div>
+
+        <!-- Alert -->
+        <div class="alert alert-success" role="alert">
+            <p class="text-sm"> This resume was created using Bootstrap 4! </p>
+        </div>
+        <br>
+
+        <!-- My Skills Section -->
+        <h2>My Skills</h2>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Python
+                <span class="badge badge-pill badge-primary border border-dark">10%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Java
+                <span class="badge badge-primary badge-pill border border-dark">25%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                C
+                <span class="badge badge-primary badge-pill border border-dark">5%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Lisp
+                <span class="badge badge-primary badge-pill border border-dark">5%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Scheme
+                <span class="badge badge-primary badge-pill border border-dark">5%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                SQL
+                <span class="badge badge-primary badge-pill border border-dark">2.5%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                VHDL
+                <span class="badge badge-primary badge-pill border border-dark">2.5%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                Javascript
+                <span class="badge badge-primary badge-pill border border-dark">15%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                HTML
+                <span class="badge badge-primary badge-pill border border-dark">15%</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                CSS
+                <span class="badge badge-primary badge-pill border border-dark">15%</span>
+            </li>
+        </ul>
+        <br>
+
+        <!-- My Experience Section -->
+        <h2>My Experience</h2>
+        <div class="card-group">
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top">
+                    <img class="mt-4 mb-4 w-100" src="./SerenityCounseling.png" alt="Serenity Counseling, Inc.">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Serenity Counseling, Inc.</h5>
+                    <p class="card-text"> • Design flyers and brochures
+                        <br> • Develop website layout and some backend software</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <div class="card-img-top">
+                    <img class="m-2 pb-2 pl-3" src="./tmas.png" alt="Tuscaloosa Metro Animal Shelter">
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title">Tuscaloosa Metro Animal Shelter</h5>
+                    <p class="card-text"> • Prepared cages and carriers according to medical guidelines
+                        <br> • Maintained cleanliness and organization of entire kennel area</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top" src="./HSWA.png" alt="Humane Society of West Alabama">
+                <div class="card-body">
+                    <h5 class="card-title">Humane Society of West Alabama</h5>
+                    <p class="card-text"> • Administered medications to animals and managed animal shelter upkeep <br> • Assigned daily duties to other team members</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+
+            <div class="card" style="width: 18rem;">
+                <img class="card-img-top mw-100" src="./Zaxbys.jpg" alt="Zaxby's Restaurant">
+                <div class="card-body">
+                    <h5 class="card-title">Zaxby's Restaurant</h5>
+                    <p class="card-text"> • Enabled kitchen operations to run in a timely manner <br> • Provided excellent customer service </p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Contact Info -->
+        <div class="jumbotron bg-light mt-5">
+            <div class="container">
+                <!-- <h1 class="display-2 text-black text-center">Contact Info</h1> -->
+                <h1 class="display-8 text-black text-center">(256) 412-2333</h1>
+                <h1 class="display-8 text-black text-center">15 Dubois Terrace</h1>
+                <h1 class="display-8 text-black text-center">Tuscaloosa, AL 35401</h1>
+                <h1 class="display-8 text-black text-center">jessie.melton@gmail.com</h1>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
