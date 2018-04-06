@@ -1,0 +1,1 @@
+This goal of this assignment was to recreate a responsive resume from a pdf. We learned new components such as: Alerts, List Groups, Cards, and Jumbotron.
